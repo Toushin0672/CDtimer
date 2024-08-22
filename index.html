@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>CountDownTimer</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+    <p id="default">00：00</p>
+
+    <div id="timer_controller">
+        <button class="button" id="add_10min"      onclick="set_time(600)">+10分</button>
+        <button class="button" id="subtract_10min" onclick="set_time(-600)">-10分</button>
+        <button class="button" id="add_1min"       onclick="set_time(60)">+1分</button>
+        <button class="button" id="subtract_1min"  onclick="set_time(-60)">-1分</button>
+        <button class="button" id="add_10sec"      onclick="set_time(10)">+10秒</button>
+        <button class="button" id="subtract_10sec" onclick="set_time(-10)">-10秒</button>
+        <button class="button" id="add_1sec"       onclick="set_time(1)">+1秒</button>
+        <button class="button" id="subtract_1sec"  onclick="set_time(-1)">-1秒</button>
+    </div>
+
+    <div id="controller">
+        <button class="button" id="start">スタート</button>
+        <button class="button" id="stop">ストップ</button>
+        <button class="button" id="reset">リセット</button>
+    </div>
+
+</body>
+<script src="./js/index.js"></script> 
+</html>

@@ -1,0 +1,11 @@
+#default{
+    background-size: 100% auto;
+    font-size: 56px;
+    background-color: lightpink;
+    margin-bottom: 30px;
+}
+
+.button{
+    margin-top: 30px;
+    width: 70px;
+}
